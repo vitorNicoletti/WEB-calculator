@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  defer src="/js/funcoes.js"></script>
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div-cal">
+        <div id="calc-real">
+            <h1>CALCULADORA DAORA</h1>
+
+            <input type="number" name="num" class="n-box"><input type="number" name="num" class="n-box">
+            <button onclick="tudo(0)" class="botao">+</button>
+            =
+            <input type="text" readonly="readonly" class="resposta" placeholder="Resultado">
+            <button onclick="limpa(0)"class="limpar">Limpar</button>
+            <br>
+            
+            
+            <input type="number" name="num" class="n-box"><input type="number" name="num" class="n-box">
+            <button onclick="tudo(1)"class="botao">-</button>
+            =
+            <input type="text" readonly="readonly" class="resposta" placeholder="Resultado">
+            <button onclick="limpa(1)"class="limpar">Limpar</button>
+            <br>
+            
+            <input type="number" name="num" class="n-box"><input type="number" name="num" class="n-box">
+            <button onclick="tudo(2)"class="botao">*</button>
+            =
+            <input type="text" readonly="readonly" class="resposta" placeholder="Resultado">
+            <button onclick="limpa(2)" class="limpar">Limpar</button>
+            <br>
+            
+            <input type="number" name="num" class="n-box"><input type="number" name="num" class="n-box">
+            <button onclick="tudo(3)"class="botao">/</button>
+            =
+            <input type="text" readonly="readonly" class="resposta" placeholder="Resultado">
+            <button onclick="limpa(3)" class="limpar">Limpar</button>
+            <br>
+        </div>
+    </div>
+    
+</body>
+</html>
